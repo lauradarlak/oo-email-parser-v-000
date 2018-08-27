@@ -7,10 +7,6 @@ class EmailParser
 
 attr_accessor :emails
 
-def parse(csv)
-  csv.split(/[\s , \,]/)
-  csv
-  
-end
+
 
 end
